@@ -1,9 +1,13 @@
-## Installation [<img src="https://rawcdn.githack.com/material-theme/vsc-material-theme/790fc5d2872f10d5a903f449c90c1fa1502d7e53/logo.png" alt="Material Theme" width="90" height="90" align="right">](https://material-theme.site/)
+# Material Theme for GitKraken [<img src="https://rawcdn.githack.com/material-theme/vsc-material-theme/790fc5d2872f10d5a903f449c90c1fa1502d7e53/logo.png" alt="Material Theme" width="90" height="90" align="right">](https://material-theme.site/)
+>The original one.
+
+## Installation
 
 ```sh
 npx degit material-theme/gitkraken ~/.gitkraken/themes --force
 ```
-> ✅ MacOS only, Windows coming soon.
+
+Open GitKraken preferences <kbd>cmd + ,</kbd> → UI Customization → Pick the theme from the dropdown
 
 
 ## Change default accent color
@@ -35,6 +39,6 @@ Accent colors from Material Theme:
 
 ## Getting updates
 
-Unfortunately, gitkraken doesn't provide a systematic way to get themes updates. The only thing you can do is manually checking for new releases and run the installation command again.
+Unfortunately, GitKraken doesn't provide a systematic way to get theme updates. The only thing you can do is manually checking for new releases and run the installation command again.
 
-⚠️ Running the command again will override your local version of the themes. If you did some modification like changing the default accent color, this command will restore the default values. You'll lose your changes. ⚠️
+⚠️ Running the command a second time will override your local themes. If you did some modification like changing the default accent color, this command will restore the default values and you'll lose your changes.
