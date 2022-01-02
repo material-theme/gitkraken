@@ -8,7 +8,7 @@ npx degit material-theme/gitkraken ~/.gitkraken/themes --force
 
 ## Change default accent color
 
-GitKraken theme files are just static jsonc files without any programmatic code. If you want to customize the default accent color from `teal` to another one, open the desired theme file from `.gitkraken/themes`, find the `"accent"` key and change the value as you wish.
+GitKraken theme files are just static jsonc files without any programmatic code. If you want to customize the default accent color from `teal` to another one, open the desired theme file from `~/.gitkraken/themes`, find the `"accent"` key and change the value as you wish.
 
 Accent colors from Material Theme:
 
