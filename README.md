@@ -3,7 +3,7 @@
 ```sh
 npx degit material-theme/gitkraken ~/.gitkraken/themes --force
 ```
-> ✅ MacOS only.
+> ✅ MacOS only, Windows coming soon.
 
 
 ## Change default accent color
