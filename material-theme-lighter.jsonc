@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "name": "Material Theme Lighter",
+    "scheme": "dark" // must be "light" or "dark"
+  },
+  "themeValues": {
+    // values applied to the entire app
+    "root": {
+      "accent": "#80CBC4",
+      "red": "#f07178",
+      "orange": "#F78C6C",
+      "yellow": "#FFCB6B",
+      "green": "#C3E88D",
+      "blue": "#82AAFF",
+      "ltblue": "#B2CCD6",
+      "purple": "#C792EA",
+      "app__bg0": "#FAFAFA",
+      "dimmed-text": "darken(desaturate(@app__bg0, 13%), 45%)",
+      "toolbar__bg0": "darken(@app__bg0, 4%)",
+      "toolbar__bg1": "@app__bg0",
+      "toolbar__bg2": "darken(@app__bg0, 5%)",
+      "panel__bg0": "@app__bg0",
+      "panel__bg1": "@app__bg0",
+      "panel__bg2": "darken(@app__bg0, 3%)",
+      "input__bg": "fade(#000000, 5%)",
+      "input-bg-warn-color": "fade(@orange, 60%)",
+      "panel-border": "darken(@app__bg0, 5%)",
+      "section-border": "darken(@app__bg0, 5%)",
+      "subtle-border": "fade(#000000, 4%)",
+      "modal-overlay-color": "fade(darken(@app__bg0, 5%), 90%)",
+      // text colors
+      // values starting with . aren't added to the CSS, they're just variables
+      ".text-color": "#000000",
+      "text-selected": "@.text-color",
+      "text-normal": "fade(@.text-color, 75%)",
+      "text-secondary": "@dimmed-text",
+      "text-disabled": "fade(@dimmed-text, 70%)",
+      "text-accent": "@accent",
+      "text-inverse": "#222222",
+      // buttons
+      "btn-text": "@text-normal",
+      "btn-text-hover": "@text-selected",
+      "default-border": "@text-normal",
+      "default-bg": "transparent",
+      "default-hover": "transparent",
+      "default-border-hover": "@text-selected",
+      "primary-border": "transparent",
+      "primary-bg": "fade(@accent, 80%)",
+      "primary-hover": "fade(@accent, 60%)",
+      "success-border": "transparent",
+      "success-bg": "fade(@green, 80%)",
+      "success-hover": "fade(@green, 60%)",
+      "warning-border": "@orange",
+      "warning-bg": "fade(@orange, 80%)",
+      "warning-hover": "fade(@orange, 60%)",
+      "danger-border": "transparent",
+      "danger-bg": "fade(@red, 80%)",
+      "danger-hover": "fade(@red, 60%)",
+      // states
+      "hover-row": "darken(@app__bg0, 5%)",
+      "danger-row": "fade(@red, 60%)",
+      "selected-row": "darken(@app__bg0, 10%)",
+      "warning-row": "fade(@orange, 60%)",
+      "droppable": "fade(@purple, 20%)",
+      "drop-target": "fade(@green, 50%)",
+      "input--disabled": "fade(#000000, 10%)",
+      "link-color": "@accent",
+      "form-control-focus": "@accent",
+      // various app elements
+      "code-bg": "@app__bg0",
+      "scroll-thumb-border": "@app__bg0",
+      "scroll-thumb-bg": "darken(desaturate(@app__bg0, 2%), 10%)",
+      "scroll-thumb-bg-light": "darken(@toolbar__bg2, 20%)",
+      "wip-status": "fade(@blue, 40%)",
+      "card__bg": "@panel__bg2",
+      "card-shadow": "rgba(0,0,0,.2)",
+      // component states
+      "filtering": "fade(@blue, 50%)",
+      "soloing": "fade(@orange, 50%)",
+      "checked-out": "fade(@accent, 30%)",
+      "soloed": "fade(@orange, 30%)",
+      "added-line": "fade(@green, 20%)",
+      "deleted-line": "fade(@red, 20%)",
+      "filter-match": "fade(@blue, 50%)",
+      "clone__progress": "fade(@blue, 70%)",
+      "toolbar__prompt": "fade(@blue, 20%)",
+      "modified-line": "fade(#000000, 25%)",
+      "verified": "fade(@green, 30%)",
+      "unverified": "fade(#000000, 10%)",
+      "drop-sort-border": "@green",
+      // terminal
+      "terminal__repo-name-color": "turquoise",
+      "terminal__repo-branch-color": "violet",
+      "terminal__repo-tag-color": "lightcoral",
+      "terminal__repo-upstream-color": "yellowgreen"
+    },
+    // override specific values just for the toolbar
+    "toolbar": {
+      "text-selected": "rgba(0,0,0,1)",
+      "text-normal": "rgba(0,0,0,.9)",
+      "text-secondary": "@dimmed-text",
+      "text-disabled": "rgba(0,0,0,.4)",
+      "input__bg": "rgba(0,0,0,.20)",
+      "link-color": "#40c5ec",
+      "btn-text": "var(--text-normal)"
+    },
+    // override specific values just for the tabs bar
+    "tabsbar": {
+      "text-selected": "@accent",
+      "text-normal": "rgba(0,0,0,.9)",
+      "text-secondary": "@dimmed-text",
+      "text-disabled": "@dimmed-text",
+      "section-border": "rgba(0,0,0,.2)",
+      "input__bg": "rgba(0,0,0,.20)",
+      "link-color": "@accent",
+      "btn-text": "var(--text-normal)"
+    }
+  }
+}
