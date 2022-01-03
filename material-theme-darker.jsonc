@@ -12,7 +12,7 @@
       "yellow": "#FFCB6B",
       "green": "#C3E88D",
       "blue": "#82AAFF",
-      "ltblue": "#B2CCD6",
+      "ltblue": "lighten(@app__bg0, 5%)",
       "purple": "#C792EA",
       "app__bg0": "#212121",
       "dimmed-text": "lighten(desaturate(@app__bg0, 13%), 45%)",
