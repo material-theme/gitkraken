@@ -8,7 +8,7 @@
 npx degit material-theme/gitkraken ~/.gitkraken/themes --force
 
 # Windows
-npx degit material-theme\gitkraken %USERPROFILE%\AppData\Roaming\.gitkraken/themes --force
+npx degit material-theme/gitkraken %USERPROFILE%/AppData/Roaming/.gitkraken/themes --force
 ```
 
 Open GitKraken preferences <kbd>cmd + ,</kbd> → UI Customization → Pick the theme from the dropdown
