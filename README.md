@@ -3,8 +3,6 @@
 
 ## Installation
 
-
-For Mac users
 ```sh
 # Mac
 npx degit material-theme/gitkraken ~/.gitkraken/themes --force
