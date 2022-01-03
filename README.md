@@ -4,13 +4,12 @@
 ## Installation
 
 
-## For Mac users
+For Mac users
 ```sh
+# Mac
 npx degit material-theme/gitkraken ~/.gitkraken/themes --force
-```
 
-## For Windows users
-```sh
+# Windows
 npx degit material-theme\gitkraken %USERPROFILE%\AppData\Roaming\.gitkraken/themes --force
 ```
 
