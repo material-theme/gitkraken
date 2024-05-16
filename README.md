@@ -1,6 +1,10 @@
 # Material Theme for GitKraken [<img src="https://rawcdn.githack.com/material-theme/vsc-material-theme/790fc5d2872f10d5a903f449c90c1fa1502d7e53/logo.png" alt="Material Theme" width="90" height="90" align="right">](https://material-theme.site/)
 >The original one.
 
+## Preview
+https://github.com/material-theme/gitkraken/issues/1
+
+
 ## Installation
 
 ```sh
